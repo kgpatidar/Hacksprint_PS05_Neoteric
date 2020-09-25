@@ -1,0 +1,40 @@
+// @import Other Super{CSS}
+
+@import "./config.scss";
+@import "./component/Home/HomeStyle.scss";
+@import "./component/News/NewsStyle.scss";
+@import "./component/Bot/botStyle.scss";
+.App {
+  background-color: #edf7f4;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  overflow-y: hidden;
+
+  .footer {
+    height: 250px;
+    background-color: black;
+    margin-top: 50px;
+    p {
+      color: #fff;
+      text-align: center;
+      padding-top: 50px;
+    }
+    h6 {
+      color: #fff;
+      text-align: center;
+      padding-top: 10px;
+      color: yellowgreen;
+    }
+
+    h5 {
+      padding: 30px;
+      font-size: 15px;
+    }
+    a {
+      color: wheat;
+      cursor: pointer;
+      text-align: center;
+      padding-top: 40px;
+    }
+  }
+}
