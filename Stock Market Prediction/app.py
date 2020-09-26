@@ -31,7 +31,7 @@ st.markdown(
     "In this Deep Learning application, we have used the historical stock price data for HDFC to forecast their price for the next 10 days.")
 
 
-DATA_URL = ('./DATASETS/'+'HDFC'+'.csv')
+DATA_URL = ('HDFC.csv')
 
 
 def load_data():
