@@ -1,5 +1,5 @@
 .news {
-  margin-top: 150px;
+  margin-top: 15vw;
   h2 {
     font-family: "Monda", sans-serif;
   }
@@ -51,6 +51,9 @@
       margin-top: 5px;
       margin-right: 10px;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      @media (max-width: 1100px) {
+        font-size: 17px;
+      }
     }
 
     .source {
@@ -73,13 +76,16 @@
     }
 
     .describe {
-      font-size: 21px;
+      font-size: 20px;
       font-family: sans-serif;
       margin-top: 15px;
       margin-right: 15px;
       color: rgb(37, 31, 31);
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
+      @media (max-width: 1100px) {
+        font-size: 17px;
+      }
     }
 
     .morebutton {
@@ -95,6 +101,45 @@
       &:hover {
         color: #000;
         transition: 0.3 linear;
+      }
+    }
+  }
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    height: auto;
+    .imageview {
+      width: 80%;
+      height: 170px;
+      margin-left: 10%;
+    }
+    .dataof {
+      font-size: 10px;
+    }
+    .content {
+      .hrs {
+        width: 200px;
+      }
+      .source {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        .srcname span {
+          padding: 5px;
+          padding-left: 15px;
+          padding-right: 15px;
+          border-radius: 20px;
+          color: rgb(238, 232, 232);
+        }
+      }
+      .title {
+        font-size: 14px;
+      }
+      .describe {
+        font-size: 11px;
+      }
+      .morebutton {
+        font-size: 13px;
+        align-self: center;
       }
     }
   }

@@ -32,13 +32,13 @@ class ChatComponent extends Component {
         <div>{this.state.show && <ChatWidget />}</div>
         <div className="floatbutton" style={style} onClick={this.toggleDiv}>
           {!this.state.show ? (
-            <img src={chatbot} height="60" width="60" />
+            <img src={chatbot} className="msgbotimg" />
           ) : (
             <h5
               style={{
                 fontSize: "30px",
                 color: "#fff",
-                marginTop: "15px",
+                marginTop: window.innerWidth < 600 ? "7px" : "15px",
               }}
             >
               &#10006;

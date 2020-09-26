@@ -5,8 +5,9 @@ const ChatWidget = () => {
     <div
       style={{
         position: "fixed",
-        top: 140,
-        right: 50,
+        top: window.innerWidth < 600 ? 12herk0 : 140,
+        right: window.innerWidth < 600 ? 5 : 50,
+        zIndex: 100000,
       }}
     >
       <iframe

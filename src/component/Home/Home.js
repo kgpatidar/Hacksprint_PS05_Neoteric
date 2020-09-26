@@ -20,7 +20,9 @@ const Navbar = () => {
 
       <div className="applink">
         <h6>
-          <a>STOCK PREDICTION</a>
+          <a href="https://stockpredictor12.herokuapp.com/" target="_blank">
+            STOCK PREDICTION
+          </a>
         </h6>
         <h6>
           <a href="#tonews">FINEWS</a>
@@ -43,8 +45,13 @@ const Landing = () => {
   return (
     <div className="landing">
       <div className="firstpart">
-        <h5>AI Powerd Stock Price Predictor</h5>
-        <button className="getstart">Get Started &#10132;</button>
+        <h4>AI Powerd Stock Price Predictor</h4>
+        <h3>
+          <br></br>
+        </h3>
+        <a className="getstart" href="https://stockpredictor12.herokuapp.com/">
+          Get Started &#10132;
+        </a>
       </div>
       <div className="secondpart">
         <img src={Artboard} className="artimage" />
