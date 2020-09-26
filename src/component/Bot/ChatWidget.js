@@ -5,7 +5,7 @@ const ChatWidget = () => {
     <div
       style={{
         position: "fixed",
-        top: window.innerWidth < 600 ? 12herk0 : 140,
+        top: window.innerWidth < 600 ? 120 : 140,
         right: window.innerWidth < 600 ? 5 : 50,
         zIndex: 100000,
       }}
