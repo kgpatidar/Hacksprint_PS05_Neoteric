@@ -1,0 +1,8 @@
+numpy
+streamlit
+plotly
+pandas
+matplotlib
+keras
+sklearn
+missingno
